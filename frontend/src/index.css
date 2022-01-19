@@ -1,0 +1,49 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex !important;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* box-sizing: border-box; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --main-color: #1089ff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1089ff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #48a3fd;
+}
+
+::-webkit-scrollbar-button {
+  height: 150px;
+}

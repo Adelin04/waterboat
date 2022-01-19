@@ -1,0 +1,117 @@
+.data-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px auto;
+  max-width: 1700px;
+  /*   border: 1px solid salmon; */
+}
+
+.img-overlay {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  background-color: rgba(16, 137, 255, 0.8);
+}
+
+.img-boat4 {
+  /*   padding: 50px 0px; */
+  display: block;
+  opacity: 0.2;
+  width: 100%;
+  z-index: -1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+.text-overlay span:first-child {
+  display: block;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.text-overlay span:nth-child(2) {
+  display: block;
+  font-size: 30px;
+  color: white;
+}
+
+.img-overlay button {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 30px 0px 0px 0px;
+  top: 90%;
+  left: 50%;
+  border-radius: 5px;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: orange;
+}
+
+.img-overlay p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  .text-overlay span:first-child {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+  .text-overlay span:nth-child(2) {
+    display: block;
+    font-size: 15px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  .text-overlay span:first-child {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  .text-overlay span:nth-child(2) {
+    display: block;
+    font-size: 15px;
+    color: white;
+  }
+  
+}
