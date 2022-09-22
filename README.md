@@ -8,6 +8,7 @@ It has 3 pages: main page, booking page and view reservation page.
 
 
 ![home](https://user-images.githubusercontent.com/63923347/191661600-33433f3d-e942-4fea-bd9c-f25c25afcd51.png)
+![home_2](https://user-images.githubusercontent.com/63923347/191662233-00cd8bc3-007c-4d2c-bf33-a8f10c69937f.png)
 ![book now](https://user-images.githubusercontent.com/63923347/191661594-cf955fb1-1c10-44f0-a816-2ab670223e9b.png)
 ![booking list](https://user-images.githubusercontent.com/63923347/191661598-2e39a544-bc1f-45ef-8beb-80f1ccdd1294.png)
 
